@@ -1,5 +1,7 @@
 FROM node:18.13.0-alpine3.17
 
+EXPOSE 80
+
 WORKDIR /app
 
 COPY package.json /app/
